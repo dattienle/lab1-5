@@ -1,0 +1,16 @@
+.traler-show {
+  position: relative;
+  padding: 2rem;
+}
+.traler-footer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  color: rgb(212, 18, 18);
+  cursor: pointer;
+  .icon {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+}
