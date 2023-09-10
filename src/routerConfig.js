@@ -5,6 +5,7 @@ import { ROUTERS } from "./utils/router";
 import MasterLayout from "./theme/masterLayout";
 import ContactPage from "./components/contact";
 import DetailPage from "./components/detail/detail";
+import News from "./components/news/news";
 
 const renderRouter = () => {
   const pageRouter = [
@@ -23,6 +24,10 @@ const renderRouter = () => {
     {
       path: ROUTERS.PAGE.DETAILS,
       component: <DetailPage />,
+    },
+    {
+      path: ROUTERS.PAGE.DETAILS,
+      component: <News />,
     },
     // {
     //     path: ROUTERS.PAGE.NEWS,
